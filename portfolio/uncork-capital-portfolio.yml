@@ -3,9 +3,9 @@ method: searched
 source: https://uncorkcapital.com/companies/
 summary:
   portfolio_total: 174
-  in_network: 34
-  api_providers: 26
-  missing: 140
+  in_network: 174
+  api_providers: 37
+  missing: 0
   stubs_created: 0
 companies:
 - name: Loft Orbital
@@ -15,9 +15,10 @@ companies:
   stage: growth
   status: active
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: loft-orbital
+  slug: loft-orbital
+  matched_by: domain
 - name: LaunchDarkly
   url: https://launchdarkly.com
   description: Feature management and progressive delivery platform for developers.
@@ -36,9 +37,10 @@ companies:
   stage: growth
   status: active
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: human-interest
+  slug: human-interest
+  matched_by: domain
 - name: Gamma
   url: https://gamma.app
   description: AI-powered tool for beautifully-designed presentations and websites.
@@ -46,9 +48,10 @@ companies:
   stage: growth
   status: active
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gamma
+  slug: gamma
+  matched_by: domain
 - name: GPTZero
   url: https://gptzero.me
   description: AI content detection preserving what is human.
@@ -56,9 +59,10 @@ companies:
   stage: series-a
   status: active
   source: https://uncorkcapital.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gptzero
+  in_network: true
+  is_api_provider: true
+  slug: gptzero
+  matched_by: domain
 - name: Tailscale
   url: https://tailscale.com
   description: Zero-config mesh VPN networking built on WireGuard.
@@ -99,9 +103,10 @@ companies:
   stage: series-a
   status: active
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ivo
+  slug: ivo
+  matched_by: domain
 - name: Postmates
   url: https://postmates.com
   description: On-demand delivery of anything from anywhere.
@@ -131,9 +136,10 @@ companies:
   stage: series-a
   status: active
   source: https://uncorkcapital.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: anything
+  in_network: true
+  is_api_provider: true
+  slug: anything
+  matched_by: domain
 - name: SendGrid
   url: https://sendgrid.com
   description: Email delivery as infrastructure for developers.
@@ -152,9 +158,10 @@ companies:
   stage: growth
   status: active
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hallow
+  slug: hallow
+  matched_by: domain
 - name: ClassDojo
   url: https://www.classdojo.com
   description: Communication platform rebuilding education around relationships.
@@ -173,9 +180,10 @@ companies:
   stage: growth
   status: active
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carrot-fertility
+  slug: carrot-fertility
+  matched_by: domain
 - name: Fitbit
   url: https://www.fitbit.com
   description: Wearable fitness and health tracking devices.
@@ -194,9 +202,10 @@ companies:
   stage: series-a
   status: active
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wrapbook
+  slug: wrapbook
+  matched_by: domain
 - name: Poshmark
   url: https://poshmark.com
   description: Social marketplace for fashion resale.
@@ -204,9 +213,10 @@ companies:
   stage: growth
   status: ipo
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poshmark
+  slug: poshmark
+  matched_by: domain
 - name: Inertia
   url: https://www.inertiafusion.com
   description: Commercializing proven inertial fusion science.
@@ -214,15 +224,17 @@ companies:
   stage: seed
   status: active
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inertia
+  slug: inertia
+  matched_by: name-slug
 - name: About.me
   url: https://about.me
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aboutme
+  slug: aboutme
+  matched_by: domain
 - name: Accredible
   url: https://www.accredible.com
   source: https://uncorkcapital.com/companies/
@@ -232,20 +244,23 @@ companies:
   matched_by: domain
 - name: Adentro
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adentro
+  slug: adentro
+  matched_by: name-slug
 - name: ADstruc
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adstruc
+  slug: adstruc
+  matched_by: name-slug
 - name: Aizon
   url: https://www.aizon.ai
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aizon
+  slug: aizon
+  matched_by: domain
 - name: Alchemy
   url: https://www.alchemy.com
   source: https://uncorkcapital.com/companies/
@@ -255,40 +270,47 @@ companies:
   matched_by: domain
 - name: Amber Box
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amber-box
+  slug: amber-box
+  matched_by: name-slug
 - name: Amperos Health
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amperos-health
+  slug: amperos-health
+  matched_by: name-slug
 - name: Arch
   source: https://uncorkcapital.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: arch
+  in_network: true
+  is_api_provider: true
+  slug: arch
+  matched_by: name-slug
 - name: August
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: august
+  slug: august
+  matched_by: name-slug
 - name: Bem
   source: https://uncorkcapital.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bem
+  in_network: true
+  is_api_provider: true
+  slug: bem
+  matched_by: name-slug
 - name: BetterDoctor
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: betterdoctor
+  slug: betterdoctor
+  matched_by: name-slug
 - name: Bezi
   url: https://www.bezi.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bezi
+  slug: bezi
+  matched_by: domain
 - name: Bitly
   url: https://bitly.com
   source: https://uncorkcapital.com/companies/
@@ -299,14 +321,16 @@ companies:
 - name: Bleacher Report
   url: https://bleacherreport.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bleacher-report
+  slug: bleacher-report
+  matched_by: domain
 - name: Blekko
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blekko
+  slug: blekko
+  matched_by: name-slug
 - name: Blink
   source: https://uncorkcapital.com/companies/
   slug: blink
@@ -315,56 +339,66 @@ companies:
   matched_by: name-slug
 - name: Brand.ai
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brandai
+  slug: brandai
+  matched_by: name-slug
 - name: BrightRoll
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brightroll
+  slug: brightroll
+  matched_by: name-slug
 - name: Buildcheck
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buildcheck
+  slug: buildcheck
+  matched_by: name-slug
 - name: Buysight
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buysight
+  slug: buysight
+  matched_by: name-slug
 - name: c/side
   url: https://cside.dev
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: c-side
+  slug: c-side
+  matched_by: name-slug
 - name: card.io
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cardio
+  slug: cardio
+  matched_by: name-slug
 - name: Chariot
   source: https://uncorkcapital.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: chariot
+  in_network: true
+  is_api_provider: true
+  slug: chariot
+  matched_by: name-slug
 - name: Charlie Finance
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: charlie-finance
+  slug: charlie-finance
+  matched_by: name-slug
 - name: Chartbeat
   url: https://chartbeat.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chartbeat
+  slug: chartbeat
+  matched_by: domain
 - name: Circle of Moms
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: circle-of-moms
+  slug: circle-of-moms
+  matched_by: name-slug
 - name: Clever
   url: https://www.clever.com
   source: https://uncorkcapital.com/companies/
@@ -375,41 +409,48 @@ companies:
 - name: Common Paper
   url: https://commonpaper.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: common-paper
+  slug: common-paper
+  matched_by: domain
 - name: Craft
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: craft
+  slug: craft
+  matched_by: name-slug
 - name: Crossbeam
   url: https://www.crossbeam.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crossbeam
+  slug: crossbeam
+  matched_by: domain
 - name: Curse
   source: https://uncorkcapital.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: curse
+  in_network: true
+  is_api_provider: true
+  slug: curse
+  matched_by: name-slug
 - name: Dashbase
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dashbase
+  slug: dashbase
+  matched_by: name-slug
 - name: DataPeople
   url: https://datapeople.io
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datapeople
+  slug: datapeople
+  matched_by: domain
 - name: Divebell
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: divebell
+  slug: divebell
+  matched_by: name-slug
 - name: DNAnexus
   url: https://www.dnanexus.com
   source: https://uncorkcapital.com/companies/
@@ -420,15 +461,17 @@ companies:
 - name: DocSend
   url: https://www.docsend.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: docsend
+  slug: docsend
+  matched_by: domain
 - name: Doma
   url: https://www.doma.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: doma
+  slug: doma
+  matched_by: domain
 - name: DroneDeploy
   url: https://www.dronedeploy.com
   source: https://uncorkcapital.com/companies/
@@ -438,29 +481,34 @@ companies:
   matched_by: domain
 - name: DualBird
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dualbird
+  slug: dualbird
+  matched_by: name-slug
 - name: DubClub
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dubclub
+  slug: dubclub
+  matched_by: name-slug
 - name: Duckbill
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: duckbill
+  slug: duckbill
+  matched_by: name-slug
 - name: Escher Reality
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: escher-reality
+  slug: escher-reality
+  matched_by: name-slug
 - name: Estately
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: estately
+  slug: estately
+  matched_by: name-slug
 - name: Eventbrite
   url: https://www.eventbrite.com
   source: https://uncorkcapital.com/companies/
@@ -471,9 +519,10 @@ companies:
 - name: Final Round AI
   url: https://www.finalroundai.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: final-round-ai
+  slug: final-round-ai
+  matched_by: domain
 - name: Flux
   source: https://uncorkcapital.com/companies/
   slug: flux
@@ -483,42 +532,48 @@ companies:
 - name: Focal Systems
   url: https://www.focal.systems
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: focal-systems
+  slug: focal-systems
+  matched_by: domain
 - name: Foodzie
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: foodzie
+  slug: foodzie
+  matched_by: name-slug
 - name: Forma
   url: https://www.joinforma.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forma
+  slug: forma
+  matched_by: domain
 - name: Fountain
   url: https://www.fountain.com
   source: https://uncorkcapital.com/companies/
-  slug: fountain-com
+  slug: fountain
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: FreshPlanet
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: freshplanet
+  slug: freshplanet
+  matched_by: name-slug
 - name: Friend.ly
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: friendly
+  slug: friendly
+  matched_by: name-slug
 - name: Fritz.ai
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fritzai
+  slug: fritzai
+  matched_by: name-slug
 - name: Front
   url: https://front.com
   source: https://uncorkcapital.com/companies/
@@ -528,25 +583,29 @@ companies:
   matched_by: domain
 - name: Get Satisfaction
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: get-satisfaction
+  slug: get-satisfaction
+  matched_by: name-slug
 - name: Giftly
   url: https://www.giftly.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: giftly
+  slug: giftly
+  matched_by: domain
 - name: Gnip
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gnip
+  slug: gnip
+  matched_by: name-slug
 - name: GreatHorn
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: greathorn
+  slug: greathorn
+  matched_by: name-slug
 - name: Groove
   url: https://www.groovehq.com
   source: https://uncorkcapital.com/companies/
@@ -557,24 +616,28 @@ companies:
 - name: Handshake
   url: https://joinhandshake.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: handshake
+  slug: handshake
+  matched_by: domain
 - name: Headnote
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: headnote
+  slug: headnote
+  matched_by: name-slug
 - name: Home Account
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: home-account
+  slug: home-account
+  matched_by: name-slug
 - name: Identify3D
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: identify3d
+  slug: identify3d
+  matched_by: name-slug
 - name: Inscribe
   url: https://www.inscribe.ai
   source: https://uncorkcapital.com/companies/
@@ -584,40 +647,47 @@ companies:
   matched_by: domain
 - name: isocket
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: isocket
+  slug: isocket
+  matched_by: name-slug
 - name: Keynexus
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: keynexus
+  slug: keynexus
+  matched_by: name-slug
 - name: Knit Health
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: knit-health
+  slug: knit-health
+  matched_by: name-slug
 - name: Koan
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: koan
+  slug: koan
+  matched_by: name-slug
 - name: Kongregate
   url: https://www.kongregate.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kongregate
+  in_network: true
+  is_api_provider: true
+  slug: kongregate
+  matched_by: domain
 - name: Koobz
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: koobz
+  slug: koobz
+  matched_by: name-slug
 - name: LiquiDonate
   source: https://uncorkcapital.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: liquidonate
+  in_network: true
+  is_api_provider: true
+  slug: liquidonate
+  matched_by: name-slug
 - name: LiveRamp
   url: https://liveramp.com
   source: https://uncorkcapital.com/companies/
@@ -627,20 +697,23 @@ companies:
   matched_by: domain
 - name: Lobby
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lobby
+  slug: lobby
+  matched_by: name-slug
 - name: Looking Glass
   url: https://lookingglassfactory.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: looking-glass
+  slug: looking-glass-factory
+  matched_by: domain
 - name: Lumina
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lumina
+  slug: lumina
+  matched_by: name-slug
 - name: Lunar
   source: https://uncorkcapital.com/companies/
   slug: lunar
@@ -649,25 +722,29 @@ companies:
   matched_by: name-slug
 - name: Manifest
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: manifest
+  slug: manifest
+  matched_by: name-slug
 - name: Marco Polo
   url: https://www.marcopolo.me
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: marco-polo
+  slug: joya-communications
+  matched_by: domain
 - name: Mashery
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mashery
+  slug: mashery
+  matched_by: name-slug
 - name: MashLogic
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mashlogic
+  slug: mashlogic
+  matched_by: name-slug
 - name: Memfault
   url: https://memfault.com
   source: https://uncorkcapital.com/companies/
@@ -677,14 +754,16 @@ companies:
   matched_by: domain
 - name: Menten AI
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: menten-ai
+  slug: menten-ai
+  matched_by: name-slug
 - name: Mesmo TV
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mesmo-tv
+  slug: mesmo-tv
+  matched_by: name-slug
 - name: Messari
   url: https://messari.io
   source: https://uncorkcapital.com/companies/
@@ -694,35 +773,41 @@ companies:
   matched_by: domain
 - name: Milo
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: milo
+  slug: milo
+  matched_by: name-slug
 - name: Mint
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mint
+  slug: mint
+  matched_by: name-slug
 - name: Mirai
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mirai
+  slug: mirai
+  matched_by: name-slug
 - name: Mixer Labs
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mixer-labs
+  slug: mixer-labs
+  matched_by: name-slug
 - name: Mob.ly
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mobly
+  slug: mobly
+  matched_by: name-slug
 - name: MonetizeNow
   url: https://www.monetizenow.io
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: monetizenow
+  slug: monetizenow
+  matched_by: domain
 - name: MonkeyLearn
   source: https://uncorkcapital.com/companies/
   slug: monkeylearn
@@ -732,134 +817,158 @@ companies:
 - name: Mutiny
   url: https://www.mutinyhq.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mutiny
+  slug: mutiny-hq
+  matched_by: domain
 - name: neo.tax
   url: https://www.neo.tax
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neotax
+  slug: neotax
+  matched_by: domain
 - name: Next Big Sound
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: next-big-sound
+  slug: next-big-sound
+  matched_by: name-slug
 - name: Niche
   url: https://www.niche.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: niche
+  slug: niche
+  matched_by: name-slug
 - name: NimaSensor
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nimasensor
+  slug: nimasensor
+  matched_by: name-slug
 - name: Nuon
   url: https://nuon.co
   source: https://uncorkcapital.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nuon
+  in_network: true
+  is_api_provider: true
+  slug: nuon
+  matched_by: domain
 - name: Ohloh
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ohloh
+  slug: ohloh
+  matched_by: name-slug
 - name: Outright
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outright
+  slug: outright
+  matched_by: name-slug
 - name: Overflow
   source: https://uncorkcapital.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: overflow
+  in_network: true
+  is_api_provider: true
+  slug: overflow
+  matched_by: name-slug
 - name: Oxen
   url: https://www.oxen.ai
   source: https://uncorkcapital.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: oxen
+  in_network: true
+  is_api_provider: true
+  slug: oxen
+  matched_by: domain
 - name: Panorama Education
   url: https://www.panoramaed.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: panorama-education
+  slug: panorama-education
+  matched_by: domain
 - name: Pattern
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pattern
+  slug: pattern
+  matched_by: name-slug
 - name: Phil
   url: https://www.phil.us
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: phil
+  slug: phil
+  matched_by: domain
 - name: Pienso
   url: https://www.pienso.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pienso
+  slug: pienso
+  matched_by: domain
 - name: Poka
   url: https://www.poka.io
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poka
+  slug: poka
+  matched_by: domain
 - name: Presso
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: presso
+  slug: presso
+  matched_by: name-slug
 - name: Pseudolithic
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pseudolithic
+  slug: pseudolithic
+  matched_by: name-slug
 - name: Qpoint
   url: https://www.qpoint.io
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qpoint
+  slug: qpoint
+  matched_by: domain
 - name: Quadric
   url: https://quadric.io
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quadric
+  slug: quadric
+  matched_by: name-slug
 - name: Ramble
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ramble
+  slug: ramble
+  matched_by: name-slug
 - name: RedCap
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: redcap
+  slug: redcap
+  matched_by: name-slug
 - name: Rixty
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rixty
+  slug: rixty
+  matched_by: name-slug
 - name: Sapho
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sapho
+  slug: sapho
+  matched_by: name-slug
 - name: Scroll
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scroll
+  slug: scroll
+  matched_by: name-slug
 - name: Shippo
   url: https://goshippo.com
   source: https://uncorkcapital.com/companies/
@@ -870,19 +979,22 @@ companies:
 - name: Simplifeye
   url: https://www.simplifeye.co
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simplifeye
+  slug: simplifeye
+  matched_by: domain
 - name: SmartShoot
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: smartshoot
+  slug: smartshoot
+  matched_by: name-slug
 - name: Soma Energy
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soma-energy
+  slug: soma-energy
+  matched_by: name-slug
 - name: Songkick
   url: https://www.songkick.com
   source: https://uncorkcapital.com/companies/
@@ -892,79 +1004,93 @@ companies:
   matched_by: domain
 - name: Spoon University
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spoon-university
+  slug: spoon-university
+  matched_by: name-slug
 - name: Spover
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spover
+  slug: spover
+  matched_by: name-slug
 - name: Stark
   url: https://www.getstark.co
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stark
+  slug: stark
+  matched_by: domain
 - name: Streamfold
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: streamfold
+  slug: streamfold
+  matched_by: name-slug
 - name: StrikeAd
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: strikead
+  slug: strikead
+  matched_by: name-slug
 - name: Sunnyside
   url: https://www.sunnyside.co
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sunnyside
+  slug: sunnyside
+  matched_by: domain
 - name: SurePath AI
   url: https://www.surepath.ai
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: surepath-ai
+  slug: surepath-ai
+  matched_by: domain
 - name: Tagged
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tagged
+  slug: tagged
+  matched_by: name-slug
 - name: TakeLessons
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: takelessons
+  slug: takelessons
+  matched_by: name-slug
 - name: Tapulous
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tapulous
+  slug: tapulous
+  matched_by: name-slug
 - name: Tempo Automation
   url: https://www.tempoautomation.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tempo-automation
+  slug: tempo-automation
+  matched_by: domain
 - name: Thing Labs
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thing-labs
+  slug: thing-labs
+  matched_by: name-slug
 - name: Top Hat
   url: https://tophat.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: top-hat
+  slug: top-hat
+  matched_by: domain
 - name: Topguest
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: topguest
+  slug: topguest
+  matched_by: name-slug
 - name: Torii
   url: https://www.toriihq.com
   source: https://uncorkcapital.com/companies/
@@ -974,20 +1100,23 @@ companies:
   matched_by: domain
 - name: Trace
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trace
+  slug: trace
+  matched_by: name-slug
 - name: TruckLabs
   url: https://www.trucklabs.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trucklabs
+  slug: trucklabs
+  matched_by: domain
 - name: True&Co
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: true-and-co
+  slug: true-and-co
+  matched_by: name-slug
 - name: Tulip Retail
   url: https://tulip.com
   source: https://uncorkcapital.com/companies/
@@ -997,9 +1126,10 @@ companies:
   matched_by: domain
 - name: Unison Computing
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unison-computing
+  slug: unison-computing
+  matched_by: name-slug
 - name: Unkey
   url: https://www.unkey.com
   source: https://uncorkcapital.com/companies/
@@ -1010,9 +1140,10 @@ companies:
 - name: Upwave
   url: https://www.upwave.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upwave
+  slug: upwave
+  matched_by: domain
 - name: UserGems
   url: https://www.usergems.com
   source: https://uncorkcapital.com/companies/
@@ -1029,50 +1160,59 @@ companies:
   matched_by: domain
 - name: Viglink
   source: https://uncorkcapital.com/companies/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: viglink
+  in_network: true
+  is_api_provider: true
+  slug: viglink
+  matched_by: name-slug
 - name: Vivid Vision
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vivid-vision
+  slug: vivid-vision
+  matched_by: name-slug
 - name: Vungle
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vungle
+  slug: vungle
+  matched_by: name-slug
 - name: Wander
   url: https://www.wander.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wander
+  slug: wander
+  matched_by: domain
 - name: Wildfire Interactive
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wildfire-interactive
+  slug: wildfire-interactive
+  matched_by: name-slug
 - name: WonderSchool
   url: https://www.wonderschool.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wonderschool
+  slug: wonderschool
+  matched_by: domain
 - name: Wyvern
   url: https://wyvern.space
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wyvern
+  slug: wyvern
+  matched_by: domain
 - name: Yuhu
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yuhu
+  slug: yuhu
+  matched_by: name-slug
 - name: ZEFR
   url: https://www.zefr.com
   source: https://uncorkcapital.com/companies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zefr
+  slug: zefr
+  matched_by: domain

@@ -17,6 +17,17 @@ description: >-
   Human Interest, Carrot Fertility, and GPTZero.
 x-type: venture-capital
 x-category: Venture Capital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://uncorkcapital.com/favicon.ico
 created: '2026-07-17'
 modified: '2026-07-17'
