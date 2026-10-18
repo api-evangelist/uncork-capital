@@ -9,9 +9,23 @@ leads:
   source_vc: uncork-capital
   source: https://uncorkcapital.com/companies/
   stub_created: false
+- name: BetterDoctor
+  url: https://questanalytics.com/how-we-help/betterdoctor/
+  suggested_slug: questanalytics-com
+  sector: ''
+  source_vc: uncork-capital
+  source: https://uncorkcapital.com/companies/
+  stub_created: false
 - name: Flux
   url: ''
   suggested_slug: flux
+  sector: ''
+  source_vc: uncork-capital
+  source: https://uncorkcapital.com/companies/
+  stub_created: false
+- name: Identify3D
+  url: https://www.materialise.com/en/industrial/software/identify3d
+  suggested_slug: materialise-com
   sector: ''
   source_vc: uncork-capital
   source: https://uncorkcapital.com/companies/
