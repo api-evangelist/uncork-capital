@@ -316,8 +316,8 @@ companies:
   is_api_provider: false
   url: https://questanalytics.com/how-we-help/betterdoctor/
   x-url-source: network-repo (title-verified 2026-10-18)
-  x-name-collision: betterdoctor
   suggested_slug: questanalytics-com
+  x-name-collision: betterdoctor
 - name: Bezi
   url: https://www.bezi.com
   source: https://uncorkcapital.com/companies/
@@ -559,7 +559,8 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: flux
-  x-url-candidate: https://www.flux.ai/p
+  url: https://www.flux.ai/p
+  x-url-source: web check 2026-10-18 (confirmed)
 - name: Focal Systems
   url: https://www.focal.systems
   source: https://uncorkcapital.com/companies/
@@ -678,8 +679,8 @@ companies:
   is_api_provider: false
   url: https://www.materialise.com/en/industrial/software/identify3d
   x-url-source: network-repo (title-verified 2026-10-18)
-  x-name-collision: identify3d
   suggested_slug: materialise-com
+  x-name-collision: identify3d
 - name: Inscribe
   url: https://www.inscribe.ai
   source: https://uncorkcapital.com/companies/

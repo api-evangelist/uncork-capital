@@ -17,7 +17,7 @@ leads:
   source: https://uncorkcapital.com/companies/
   stub_created: false
 - name: Flux
-  url: ''
+  url: https://www.flux.ai/p
   suggested_slug: flux
   sector: ''
   source_vc: uncork-capital
