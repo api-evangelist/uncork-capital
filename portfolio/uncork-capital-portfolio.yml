@@ -3,9 +3,9 @@ method: searched
 source: https://uncorkcapital.com/companies/
 summary:
   portfolio_total: 174
-  in_network: 174
-  api_providers: 37
-  missing: 0
+  in_network: 172
+  api_providers: 39
+  missing: 2
   stubs_created: 0
 companies:
 - name: Loft Orbital
@@ -182,7 +182,7 @@ companies:
   source: https://uncorkcapital.com/companies/
   in_network: true
   is_api_provider: false
-  slug: carrot-fertility
+  slug: carrot
   matched_by: domain
 - name: Fitbit
   url: https://www.fitbit.com
@@ -224,10 +224,10 @@ companies:
   stage: seed
   status: active
   source: https://uncorkcapital.com/companies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: inertia
-  matched_by: name-slug
+  x-name-collision: inertia
+  suggested_slug: inertiafusion-com
 - name: About.me
   url: https://about.me
   source: https://uncorkcapital.com/companies/
@@ -454,9 +454,9 @@ companies:
 - name: DNAnexus
   url: https://www.dnanexus.com
   source: https://uncorkcapital.com/companies/
-  slug: life-sciences
+  slug: dnanexus
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: DocSend
   url: https://www.docsend.com
@@ -525,10 +525,9 @@ companies:
   matched_by: domain
 - name: Flux
   source: https://uncorkcapital.com/companies/
-  slug: flux
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: flux
 - name: Focal Systems
   url: https://www.focal.systems
   source: https://uncorkcapital.com/companies/
@@ -552,9 +551,9 @@ companies:
 - name: Fountain
   url: https://www.fountain.com
   source: https://uncorkcapital.com/companies/
-  slug: fountain
+  slug: fountain-com
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: FreshPlanet
   source: https://uncorkcapital.com/companies/
@@ -643,7 +642,7 @@ companies:
   source: https://uncorkcapital.com/companies/
   slug: inscribe
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: isocket
   source: https://uncorkcapital.com/companies/
@@ -798,14 +797,14 @@ companies:
 - name: Mob.ly
   source: https://uncorkcapital.com/companies/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: mobly
   matched_by: name-slug
 - name: MonetizeNow
   url: https://www.monetizenow.io
   source: https://uncorkcapital.com/companies/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: monetizenow
   matched_by: domain
 - name: MonkeyLearn

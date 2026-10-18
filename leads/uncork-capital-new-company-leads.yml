@@ -1,4 +1,18 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: uncork-capital
-leads: []
+leads:
+- name: Inertia
+  url: https://www.inertiafusion.com
+  suggested_slug: inertiafusion-com
+  sector: frontier-tech
+  source_vc: uncork-capital
+  source: https://uncorkcapital.com/companies/
+  stub_created: false
+- name: Flux
+  url: ''
+  suggested_slug: flux
+  sector: ''
+  source_vc: uncork-capital
+  source: https://uncorkcapital.com/companies/
+  stub_created: false
